@@ -129,3 +129,58 @@ font-size: 32px;
     color: rgb(255, 255, 255);
     font-size: 32px;
 }
+
+#newsLetter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: plum;
+    background-position: 20% 30%;
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+}
+
+#newsLetter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+#newsLetter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+#newsLetter p span {
+    color: brown;
+}
+
+#newsLetter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsLetter button {
+    background-color: brown;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsLetter .form{
+    display: flex;
+    width: 40%;
+}
