@@ -339,3 +339,22 @@ font-size: 32px;
   top: 250px;
   color: rgb(234, 83, 214);
 }
+
+#aboutSection img{
+  width: 570px;
+  height: 570px;
+}
+
+#aboutSection {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+#aboutSection div{
+  padding-left: 40px;
+}
+
+#aboutSection h2{
+  font-size: 32px;
+}
