@@ -358,3 +358,109 @@ font-size: 32px;
 #aboutSection h2{
   font-size: 32px;
 }
+
+#pageHeader2{
+  background-image: url("img/contactBanner.png");
+  width: 100%;
+  height: 45vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0.25px;
+}
+
+#pageHeader2 h2{
+  font-size: 82px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  color: rgb(234, 83, 214);
+}
+
+#contactDetails{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contactDetails .details{
+  width: 40%;
+}
+
+#contactDetails .details span,
+#formDetails form span{
+  font-size: 12px;
+}
+
+#contactDetails .details h2,
+#formDetails form h2{
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+#contactDetails .details h3{
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+#contactDetails .details li{
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+#contactDetails .details li i{
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+#contactDetails .details li p{
+  margin: 0;
+  font-size: 14px;
+}
+
+#contactDetails div{
+  padding: 20px;
+}
+
+#contactDetails .map{
+  width: 55%;
+  height: 400px;
+}
+
+#contactDetails .map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+#formDetails{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid #e1e1e1;
+}
+
+#formDetails form{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#formDetails form input,
+#formDetails form textarea{
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+}
+
+#formDetails form button{
+  background-color: plum;
+  color: white;
+  width: 5em;
+  height: 3em;
+}
